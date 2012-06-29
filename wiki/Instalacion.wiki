@@ -5,5 +5,5 @@ Si ya tenemos instalado un gestor web en nuestro ordenador, como indica en <a hr
 <ol>
 <li>Copiamos al carpeta <i>distribuciondealimentos</i> a la carpeta donde se encuentran las páginas webs, suele ser htdocs o www.</li>
 <li>Ejecutamos el script llamado anexo4.sql desde PHPmyAdmin (a lo mejor tenemos que hacer algunas modificaciones al script, si tenéis problemas no dudéis en comentar)</li>
-</lo>
+</ol>
 Una vez hecho desde el mismo servidor/ordenador podemos entrar desde http://localhost/distribuciondealimento e ingresamos administrador y como contraseña 123456.
