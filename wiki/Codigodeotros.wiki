@@ -28,9 +28,9 @@ Ignatius Teo
 <li>Los archivos se encuentran en la carpeta xls
 <http://act28.com></li>
 </ul>
-==3 FusionCharts==
-Aunque no es una clase la he incorporado en esta sección por ser como una clase, permite crear los
-gráficos con flash. Estos son los datos del autor:
+==3 FusionCharts ==
+Aunque no es una clase la he incorporado en esta sección por ser como una clase, permite crear los gráficos con flash. 
+Estos son los datos del autor:
 <ul>
 <li>Author: InfoSoft Global (P) Ltd.</li>
 </ul>
