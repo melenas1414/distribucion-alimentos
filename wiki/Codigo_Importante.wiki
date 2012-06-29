@@ -1,0 +1,42 @@
+#labels PHP,Codigo,Importancia
+#Código del PHP a tener en cuenta
+
+= Introducción =
+
+Distinto código a tener en cuenta por su dificultad.
+
+
+= Detalles =
+<h1>1 crearbackup.php</h1>
+
+Este código realiza lo siguiente:
+<li>Se genera primero el head de un archivo sql.</li<
+<li<Luego va generando una variable con los insert de cada tabla por medio del siguiente
+código, la etiqueta <tabla> se cambia por cada tabla:
+$file.="--\n
+-- Volcado de datos para la tabla `<tabla>`\n
+--\n";
+$consulta="select * from <tabla>";
+$sql=buscar($consulta);
+while ($row = mysql_fetch_row($sql))
+{
+$file.="insert into <tabla> values (";
+for($i=0; $i< count($row); $i++) {
+if ($i+1==count($row))
+{
+$file.="'".$row[$i]."');\n";
+}
+else
+$file.="'".$row[$i]."',";
+}
+}</li>
+<li>Al terminar la variable se imprime con un echo y automáticamente te lo descarga.</li>
+</ol>
+<h1>2 reordenar.php</h1>
+Este código permite realizar un reordenado de los usuarios que han sido eliminados, el propio
+archivo está comentado y permite un fácil entendimiento del mismo, se puede encontrar en el anexo
+5 dentro del código de todas los archivos php.
+<h1>3 subirbackup.php</h1>
+Este código permite respaldar una base de datos, para ello primero llama al procedimiento de
+MySQL restore y luego lee cada línea del archivo sql subido, que se encuentra en la carpeta
+backups, y las va ejecutando en MySQL.
