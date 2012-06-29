@@ -1,0 +1,9 @@
+#labels Instalación,Código,Servidor
+Para instalarlo debemos descargar el archivo distribuciónalimentosvx.x.zip.
+Descomprimir el archivo.
+Si ya tenemos instalado un gestor web en nuestro ordenador, como indica en <a href="http://code.google.com/p/distribucion-alimentos/wiki/Requerimientos">los requerimientos</a>, esto es lo que haremos:
+<ol>
+<li>Copiamos al carpeta <i>distribuciondealimentos</i> a la carpeta donde se encuentran las páginas webs, suele ser htdocs o www.</li>
+<li>Ejecutamos el script llamado anexo4.sql desde PHPmyAdmin (a lo mejor tenemos que hacer algunas modificaciones al script, si tenéis problemas no dudéis en comentar)</li>
+</lo>
+Una vez hecho desde el mismo servidor/ordenador podemos entrar desde http://localhost/distribuciondealimento e ingresamos administrador y como contraseña 123456.
