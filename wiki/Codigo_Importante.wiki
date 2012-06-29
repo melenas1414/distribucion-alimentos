@@ -10,9 +10,9 @@ Distinto código a tener en cuenta por su dificultad.
 <h1>1 crearbackup.php</h1>
 
 Este código realiza lo siguiente:
-<li>Se genera primero el head de un archivo sql.</li<
-<li<Luego va generando una variable con los insert de cada tabla por medio del siguiente
-código, la etiqueta <tabla> se cambia por cada tabla:
+<li>Se genera primero el head de un archivo sql.</li>
+<li>Luego va generando una variable con los insert de cada tabla por medio del siguiente
+código, la etiqueta _<tabla>_ se cambia por cada tabla:
 $file.="--\n
 -- Volcado de datos para la tabla `<tabla>`\n
 --\n";
