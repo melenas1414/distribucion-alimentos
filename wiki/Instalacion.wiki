@@ -1,4 +1,12 @@
+#summary instalación de la aplicación
 #labels Instalación,Código,Servidor
+
+=Introducción=
+
+En esta página disponemos la instalación de la aplicación en un servidor web
+
+=Detalles=
+
 Para instalarlo debemos descargar el archivo distribuciónalimentosvx.x.zip.
 Descomprimir el archivo.
 Si ya tenemos instalado un gestor web en nuestro ordenador, como indica en <a href="http://code.google.com/p/distribucion-alimentos/wiki/Requerimientos">los requerimientos</a>, esto es lo que haremos:
