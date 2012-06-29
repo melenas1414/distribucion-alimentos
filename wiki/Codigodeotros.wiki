@@ -1,0 +1,36 @@
+#summary Código programado por otras personas
+#labels Código,Personas,PHP,Javascript
+
+= Introducción =
+
+En esta wiki dispondremos el código que ha sido programado por otras personas, la licencia del mismo y donde es utilizado.
+
+
+= Detalles =
+
+==1 dompdf==
+Permite la creación de PDF's. Estos son los datos de la licencia de la misma:
+<ul>
+<li>package dompdf</li>
+<li>link</li>
+<li>author Benj Carson <benjcarson@digitaljunkies.ca></li>
+<li>license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License</li>
+<li>Los archivos se encuentran en la carpeta dompdf.
+http://www.dompdf.com/</li>
+</ul>
+==2 xlsStream==
+Permite la creación de Excels. Estos son los datos de la licencia de la misma:
+<ul>
+<li>author
+Ignatius Teo
+<ignatius@act28.com></li>
+<li>copyright (C)2004 act28.com</li>
+<li>Los archivos se encuentran en la carpeta xls
+<http://act28.com></li>
+</ul>
+==3 FusionCharts==
+Aunque no es una clase la he incorporado en esta sección por ser como una clase, permite crear los
+gráficos con flash. Estos son los datos del autor:
+<ul>
+<li>Author: InfoSoft Global (P) Ltd.</li>
+</ul>
