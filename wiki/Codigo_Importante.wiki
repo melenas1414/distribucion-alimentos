@@ -1,5 +1,5 @@
+#summary Código del PHP a tener en cuenta
 #labels PHP,Codigo,Importancia
-#Código del PHP a tener en cuenta
 
 = Introducción =
 
