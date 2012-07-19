@@ -18,6 +18,7 @@ Una vez hecho desde el mismo servidor/ordenador podemos entrar desde http://loca
 
 ===Instalación en windows:===
 <i>Con esto se soluciona el problema al realizar un excel</i>
+
 Se debe modificar la línea 25 de documento por lo siguiente:
 Si tienes instalado XAMPP:
 $excelfile = "xlsfile://xampp/tmp/".$filename;  
