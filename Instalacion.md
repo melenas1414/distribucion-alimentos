@@ -1,0 +1,27 @@
+# Introducción #
+
+En esta página disponemos la instalación de la aplicación en un servidor web
+
+# Detalles #
+
+Para instalarlo debemos descargar el archivo distribuciónalimentosvx.x.zip.
+Descomprimir el archivo.
+Si ya tenemos instalado un gestor web en nuestro ordenador, como indica en <a href='http://code.google.com/p/distribucion-alimentos/wiki/Requerimientos'>los requerimientos</a>, esto es lo que haremos:
+<ol>
+<li>Copiamos al carpeta <i>distribuciondealimentos</i> a la carpeta donde se encuentran las páginas webs, suele ser htdocs o www.</li>
+<li>Ejecutamos el script llamado anexo4.sql desde PHPmyAdmin (a lo mejor tenemos que hacer algunas modificaciones al script, si tenéis problemas no dudéis en comentar)</li>
+</ol>
+Una vez hecho desde el mismo servidor/ordenador podemos entrar desde http://localhost/distribuciondealimento e ingresamos administrador y como contraseña 123456.
+
+### Instalación en windows: ###
+<i>Con esto se soluciona el problema al realizar un excel</i>
+
+Se debe modificar la línea 25 de documento por lo siguiente:
+
+Si tienes instalado XAMPP:
+
+$excelfile = "xlsfile://xampp/tmp/".$filename;
+
+Si tienes instalado WAMPP:
+
+$excelfile = "xlsfile://wampp/tmp/".$filename;

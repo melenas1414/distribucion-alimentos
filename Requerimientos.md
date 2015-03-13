@@ -1,0 +1,21 @@
+# Introducción #
+
+Estos son los programas requeridos para la instalación de la aplicación en Windows o en Linux
+
+
+# Detalles #
+## Windows Cliente ##
+Para implantarlo en Windows desde XP hasta 7 en un ordenador cliente debemos tener lo siguiente:
+<ul>
+<li>Wamp Server (u otro con las mismas capacidades).</li>
+</ul>
+## Windows Server ##
+Para implantarlo en Windows Server debemos tener lo siguiente:
+<ul>
+<li>Servidor Apache en su última versión y Servidor de MySQL</li>
+</ul>
+## Linux ##
+Para implantarlo en Linux debemos tener lo siguiente:
+<ul>
+<li>Servidor Apache y Servidor de MySQL</li>
+</ul>
